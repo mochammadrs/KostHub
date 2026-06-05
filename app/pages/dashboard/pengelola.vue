@@ -6,6 +6,28 @@ definePageMeta({
 
 <template>
   <div>
+    <!-- Navigation tabs -->
+    <nav class="flex gap-1 mb-6 border-b border-gray-200">
+      <NuxtLink
+        to="/dashboard/pengelola"
+        class="px-4 py-2 text-sm font-medium rounded-t-lg transition"
+        :class="$route.path === '/dashboard/pengelola'
+          ? 'bg-white text-blue-600 border border-gray-200 border-b-white -mb-px'
+          : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'"
+      >
+        Dashboard
+      </NuxtLink>
+      <NuxtLink
+        to="/dashboard/pengelola/invite"
+        class="px-4 py-2 text-sm font-medium rounded-t-lg transition"
+        :class="$route.path === '/dashboard/pengelola/invite'
+          ? 'bg-white text-blue-600 border border-gray-200 border-b-white -mb-px'
+          : 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'"
+      >
+        Undang Penghuni
+      </NuxtLink>
+    </nav>
+
     <h2 class="text-2xl font-bold text-gray-900 mb-6">
       Dashboard Pengelola
     </h2>
