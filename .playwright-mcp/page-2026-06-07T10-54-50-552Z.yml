@@ -1,0 +1,49 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e81]:
+    - banner [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - button [ref=e85]:
+            - img [ref=e86]
+          - heading "KostHub" [level=1] [ref=e88]
+        - button "PE" [ref=e89]
+    - main [ref=e90]:
+      - generic [ref=e102]:
+        - link "Buat Laporan" [ref=e104] [cursor=pointer]:
+          - /url: /dashboard/penghuni
+          - img [ref=e105]
+          - generic [ref=e107]: Buat Laporan
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: Kategori Kerusakan
+            - combobox [ref=e112]:
+              - option "Pilih kategori" [disabled]
+              - option "AC" [selected]
+              - option "Listrik"
+              - option "Air"
+              - option "Furniture"
+              - option "Kamar Mandi"
+              - option "Kebersihan"
+              - option "Keamanan"
+              - option "Lainnya"
+          - generic [ref=e113]:
+            - generic [ref=e114]: Deskripsi Masalah
+            - textbox "Jelaskan masalah yang Anda alami secara detail..." [ref=e115]: AC kamar tidak dingin, sudah beberapa hari tidak berfungsi dengan baik. Mohon diperbaiki segera.
+          - generic [ref=e116]:
+            - generic [ref=e117]: Unggah Foto
+            - generic [ref=e119] [cursor=pointer]:
+              - img [ref=e120]
+              - paragraph [ref=e122]: Klik untuk unggah foto
+              - paragraph [ref=e123]: PNG, JPG hingga 5MB
+          - paragraph [ref=e126]: new row violates row-level security policy for table "tickets"
+          - button "Kirim Laporan" [ref=e124]
+  - generic:
+    - img
+  - generic [ref=e31]:
+    - button "Toggle Nuxt DevTools" [ref=e32] [cursor=pointer]:
+      - img [ref=e33]
+    - generic "Page load time" [ref=e36]:
+      - generic [ref=e37]: "526"
+      - generic [ref=e38]: ms
+    - button "Toggle Component Inspector" [ref=e40] [cursor=pointer]:
+      - img [ref=e41]

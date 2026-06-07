@@ -1,0 +1,13 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "KostHub" [level=1] [ref=e6]
+    - paragraph [ref=e7]: Buat Password Anda
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: Password Baru
+      - textbox "Masukkan password (min. 8 karakter)" [ref=e11]
+    - generic [ref=e12]:
+      - generic [ref=e13]: Konfirmasi Password
+      - textbox "Masukkan ulang password" [ref=e14]
+    - button "Buat Password" [ref=e15]
+  - paragraph [ref=e17]: Setelah membuat password, Anda akan diarahkan ke halaman login

@@ -1,0 +1,74 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e30]:
+      - generic [ref=e31]:
+        - heading "KostHub" [level=1] [ref=e32]
+        - generic [ref=e33]:
+          - generic [ref=e34]: penghuni@kosthub.com
+          - button "Keluar" [ref=e35]
+    - main [ref=e4]:
+      - generic [ref=e98]:
+        - navigation [ref=e99]:
+          - link "Dashboard" [ref=e100] [cursor=pointer]:
+            - /url: /dashboard/penghuni
+          - link "Tagihan" [ref=e101] [cursor=pointer]:
+            - /url: /dashboard/penghuni/billing
+          - link "Laporan" [ref=e102] [cursor=pointer]:
+            - /url: /dashboard/penghuni/tickets
+        - heading "Laporan Kerusakan" [level=2] [ref=e104]
+        - generic [ref=e132]:
+          - heading "Laporan Kerusakan Baru" [level=4] [ref=e133]
+          - generic [ref=e134]:
+            - generic [ref=e135]: Kategori
+            - combobox [ref=e136]:
+              - option "Pilih kategori" [disabled] [selected]
+              - option "Listrik"
+              - option "Air / PAM"
+              - option "AC"
+              - option "WiFi / Internet"
+              - option "Kebersihan"
+              - option "Lainnya"
+          - generic [ref=e137]:
+            - generic [ref=e138]: Judul
+            - 'textbox "Contoh: AC tidak dingin" [ref=e139]'
+          - generic [ref=e140]:
+            - generic [ref=e141]: Deskripsi (opsional)
+            - textbox "Jelaskan detail kerusakan..." [ref=e142]
+          - generic [ref=e143]:
+            - button "Kirim Laporan" [ref=e144]
+            - button "Batal" [ref=e145]
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - heading "AC kamar tidak dingin" [level=4] [ref=e110]
+              - generic [ref=e111]: Diproses
+            - generic [ref=e112]:
+              - generic [ref=e113]: AC
+              - generic [ref=e114]: 5 Juni 2026 pukul 21.41
+            - paragraph [ref=e115]: AC sudah 2 hari ini tidak mengeluarkan udara dingin sama sekali. Mohon dicek.
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - heading "Kran kamar mandi bocor" [level=4] [ref=e118]
+              - generic [ref=e119]: Selesai
+            - generic [ref=e120]:
+              - generic [ref=e121]: Air
+              - generic [ref=e122]: 5 Juni 2026 pukul 21.41
+            - paragraph [ref=e123]: Kran air di kamar mandi bocor terus, airnya tidak bisa mati total.
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - heading "Lampu lorong mati" [level=4] [ref=e126]
+              - generic [ref=e127]: Menunggu
+            - generic [ref=e128]:
+              - generic [ref=e129]: Listrik
+              - generic [ref=e130]: 5 Juni 2026 pukul 21.41
+            - paragraph [ref=e131]: Lampu di lorong lantai 2 mati sudah 3 hari.
+  - generic:
+    - img
+  - generic [ref=e16]:
+    - button "Toggle Nuxt DevTools" [ref=e17] [cursor=pointer]:
+      - img [ref=e18]
+    - generic "Page load time" [ref=e21]:
+      - generic [ref=e22]: "454"
+      - generic [ref=e23]: ms
+    - button "Toggle Component Inspector" [ref=e25] [cursor=pointer]:
+      - img [ref=e26]

@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - main [ref=e10]:
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - heading "KostHub" [level=1] [ref=e48]
+        - paragraph [ref=e49]: Kelola properti kost dengan mudah
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: "Masuk sebagai:"
+        - generic [ref=e52]:
+          - button "Penghuni" [ref=e53]:
+            - img [ref=e54]
+            - generic [ref=e56]: Penghuni
+          - button "Pengelola" [ref=e57]:
+            - img [ref=e58]
+            - generic [ref=e60]: Pengelola
+  - generic:
+    - img
+  - generic [ref=e31]:
+    - button "Toggle Nuxt DevTools" [ref=e32] [cursor=pointer]:
+      - img [ref=e33]
+    - generic "Page load time" [ref=e36]:
+      - generic [ref=e37]: "12"
+      - generic [ref=e38]: ms
+    - button "Toggle Component Inspector" [ref=e40] [cursor=pointer]:
+      - img [ref=e41]

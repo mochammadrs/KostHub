@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "KostHub" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Buat Password Anda
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: Password Baru
+        - textbox "Masukkan password (min. 8 karakter)" [ref=e11]: NewPassword123!
+      - generic [ref=e12]:
+        - generic [ref=e13]: Konfirmasi Password
+        - textbox "Masukkan ulang password" [ref=e14]: NewPassword123!
+      - paragraph [ref=e32]: Token tidak valid
+      - button "Buat Password" [ref=e15]
+    - paragraph [ref=e17]: Setelah membuat password, Anda akan diarahkan ke halaman login
+  - generic:
+    - img
+  - generic [ref=e18]:
+    - button "Toggle Nuxt DevTools" [ref=e19] [cursor=pointer]:
+      - img [ref=e20]
+    - generic "Page load time" [ref=e23]:
+      - generic [ref=e24]: "29"
+      - generic [ref=e25]: ms
+    - button "Toggle Component Inspector" [ref=e27] [cursor=pointer]:
+      - img [ref=e28]

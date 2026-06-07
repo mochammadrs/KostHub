@@ -1,0 +1,80 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - heading "KostHub" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Panel Pengelola
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /dashboard/pengelola
+        - img [ref=e10]
+        - generic [ref=e12]: Dashboard
+      - link "Penghuni" [ref=e13] [cursor=pointer]:
+        - /url: /dashboard/pengelola/penghuni
+        - img [ref=e14]
+        - generic [ref=e16]: Penghuni
+      - link "Tagihan" [ref=e17] [cursor=pointer]:
+        - /url: /dashboard/pengelola/billing
+        - img [ref=e18]
+        - generic [ref=e20]: Tagihan
+      - link "Laporan" [ref=e21] [cursor=pointer]:
+        - /url: /dashboard/pengelola/tickets
+        - img [ref=e22]
+        - generic [ref=e24]: Laporan
+      - link "Pengumuman" [ref=e25] [cursor=pointer]:
+        - /url: /dashboard/pengelola/announcements
+        - img [ref=e26]
+        - generic [ref=e28]: Pengumuman
+      - link "Invite Penghuni Baru" [ref=e29] [cursor=pointer]:
+        - /url: /dashboard/pengelola/invite
+        - img [ref=e30]
+        - generic [ref=e32]: Invite Penghuni Baru
+    - button "Keluar" [ref=e34]:
+      - img [ref=e35]
+      - generic [ref=e37]: Keluar
+  - generic [ref=e38]:
+    - banner [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e42]:
+          - img [ref=e43]
+          - textbox "Cari penghuni, kamar..." [ref=e45]
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - paragraph [ref=e48]: Admin
+            - paragraph [ref=e49]: admin@kosthub.com
+          - generic [ref=e50]: A
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "Undang Penghuni" [level=1] [ref=e54]
+          - paragraph [ref=e55]: Kirim undangan email ke penghuni baru untuk bergabung ke kost Anda
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - heading "Form Undangan" [level=2] [ref=e58]
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - generic [ref=e61]: Nama Lengkap
+                - textbox "Nama Lengkap" [ref=e62]:
+                  - /placeholder: Nama penghuni
+              - generic [ref=e63]:
+                - generic [ref=e64]: Email
+                - textbox "Email" [ref=e65]:
+                  - /placeholder: penghuni@example.com
+              - generic [ref=e66]:
+                - generic [ref=e67]: No. Telepon
+                - textbox "No. Telepon" [ref=e68]:
+                  - /placeholder: 08xxxxxxxxxx
+              - generic [ref=e69]:
+                - generic [ref=e70]: Nomor Kamar
+                - textbox "Nomor Kamar" [ref=e71]:
+                  - /placeholder: A1, B2, dll
+              - generic [ref=e72]:
+                - generic [ref=e73]: Tanggal Masuk
+                - textbox "Tanggal Masuk" [ref=e74]
+              - button "Kirim Undangan" [ref=e75]
+          - generic [ref=e76]:
+            - paragraph [ref=e77]: Bagaimana cara kerjanya?
+            - list [ref=e78]:
+              - listitem [ref=e79]: Masukkan email dan nama lengkap penghuni
+              - listitem [ref=e80]: Sistem akan mengirimkan link undangan ke email tersebut
+              - listitem [ref=e81]: Penghuni membuka link dan membuat password sendiri
+              - listitem [ref=e82]: Setelah selesai, penghuni bisa login ke dashboard

@@ -1,0 +1,83 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button [ref=e7]:
+            - img [ref=e8]
+          - heading "KostHub" [level=1] [ref=e10]
+        - button "PE" [ref=e11]
+    - main [ref=e12]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Halo,
+          - heading "Penghuni 3" [level=1] [ref=e53]
+        - generic [ref=e54]:
+          - img [ref=e56]
+          - paragraph [ref=e59]: Laporan berhasil dikirim! Pengelola akan segera menindaklanjuti.
+          - button [ref=e60]:
+            - img [ref=e61]
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - img [ref=e66]
+              - heading "Pengumuman" [level=2] [ref=e68]
+            - generic [ref=e69]:
+              - button [disabled] [ref=e70]:
+                - img [ref=e71]
+              - button [ref=e73]:
+                - img [ref=e74]
+          - generic [ref=e77]:
+            - generic [ref=e80]:
+              - img [ref=e82]
+              - generic [ref=e84]:
+                - heading "tes" [level=3] [ref=e85]
+                - paragraph [ref=e86]: tes
+                - generic [ref=e87]:
+                  - img [ref=e88]
+                  - generic [ref=e90]: 15 jam lalu
+            - generic [ref=e93]:
+              - img [ref=e95]
+              - generic [ref=e97]:
+                - heading "Jadwal Kebersihan Mingguan" [level=3] [ref=e98]
+                - paragraph [ref=e99]: Kebersihan bersama akan dilaksanakan setiap hari Sabtu pukul 08.00 WIB. Mohon partisipasi semua penghuni.
+                - generic [ref=e100]:
+                  - img [ref=e101]
+                  - generic [ref=e103]: 1 hari lalu
+            - generic [ref=e106]:
+              - img [ref=e108]
+              - generic [ref=e110]:
+                - heading "Pengingat Pembayaran" [level=3] [ref=e111]
+                - paragraph [ref=e112]: Pembayaran kost dilakukan paling lambat tanggal 15 setiap bulannya. Keterlambatan akan dikenakan denda.
+                - generic [ref=e113]:
+                  - img [ref=e114]
+                  - generic [ref=e116]: 1 hari lalu
+          - generic [ref=e117]:
+            - button [ref=e118]
+            - button [ref=e119]
+            - button [ref=e120]
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - heading "Laporan Perbaikan" [level=2] [ref=e123]
+            - link "Buat Laporan" [ref=e124] [cursor=pointer]:
+              - /url: /dashboard/penghuni/laporan/buat
+              - img [ref=e125]
+              - text: Buat Laporan
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - heading "AC" [level=3] [ref=e135]
+                - generic [ref=e136]: Menunggu
+              - paragraph [ref=e137]: AC kamar 15B tidak dingin, sudah 3 hari tidak berfungsi. Mohon segera diperbaiki.
+              - paragraph [ref=e138]: Dilaporkan Baru saja
+  - generic:
+    - img
+  - generic [ref=e36]:
+    - button "Toggle Nuxt DevTools" [ref=e37] [cursor=pointer]:
+      - img [ref=e38]
+    - generic "Page load time" [ref=e41]:
+      - generic [ref=e42]: "712"
+      - generic [ref=e43]: ms
+    - button "Toggle Component Inspector" [ref=e45] [cursor=pointer]:
+      - img [ref=e46]

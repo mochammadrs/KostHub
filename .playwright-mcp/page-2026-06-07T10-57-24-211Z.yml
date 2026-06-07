@@ -1,0 +1,37 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7]:
+          - img [ref=e8]
+        - heading "KostHub" [level=1] [ref=e10]
+      - button "PE" [ref=e11]
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - link "Buat Laporan" [ref=e15] [cursor=pointer]:
+        - /url: /dashboard/penghuni
+        - img [ref=e16]
+        - generic [ref=e18]: Buat Laporan
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: Kategori Kerusakan
+          - combobox [ref=e23]:
+            - option "Pilih kategori" [disabled] [selected]
+            - option "AC"
+            - option "Listrik"
+            - option "Air"
+            - option "Furniture"
+            - option "Kamar Mandi"
+            - option "Kebersihan"
+            - option "Keamanan"
+            - option "Lainnya"
+        - generic [ref=e24]:
+          - generic [ref=e25]: Deskripsi Masalah
+          - textbox "Jelaskan masalah yang Anda alami secara detail..." [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]: Unggah Foto
+          - generic [ref=e30] [cursor=pointer]:
+            - img [ref=e31]
+            - paragraph [ref=e33]: Klik untuk unggah foto
+            - paragraph [ref=e34]: PNG, JPG hingga 5MB
+        - button "Kirim Laporan" [ref=e35]

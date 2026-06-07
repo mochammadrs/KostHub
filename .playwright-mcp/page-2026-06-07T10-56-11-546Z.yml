@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading "KostHub" [level=1] [ref=e6]
+        - generic [ref=e7]:
+          - generic [ref=e8]: penghuni3@kosthub.com
+          - button "Keluar" [ref=e9]
+    - main [ref=e10]:
+      - generic [ref=e28]:
+        - button "Kembali" [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e32]: Kembali
+        - generic [ref=e33]:
+          - img [ref=e35]
+          - heading "Masuk Sebagai Penghuni" [level=1] [ref=e37]
+          - paragraph [ref=e38]: Masukkan email dan password Anda
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: Email
+            - textbox "email@example.com" [ref=e42]
+          - generic [ref=e43]:
+            - generic [ref=e44]: Password
+            - textbox "••••••••" [ref=e45]
+          - button "Masuk" [ref=e46]
+  - generic:
+    - img
+  - generic [ref=e47]:
+    - button "Toggle Nuxt DevTools" [ref=e48] [cursor=pointer]:
+      - img [ref=e49]
+    - generic "Page load time" [ref=e52]:
+      - generic [ref=e53]: "28"
+      - generic [ref=e54]: ms
+    - button "Toggle Component Inspector" [ref=e56] [cursor=pointer]:
+      - img [ref=e57]

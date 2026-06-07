@@ -1,0 +1,83 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e39]:
+    - complementary [ref=e40]:
+      - generic [ref=e41]:
+        - heading "KostHub" [level=1] [ref=e42]
+        - paragraph [ref=e43]: Panel Pengelola
+      - navigation [ref=e44]:
+        - link "Dashboard" [ref=e45] [cursor=pointer]:
+          - /url: /dashboard/pengelola
+          - generic [ref=e46]: Dashboard
+        - link "Penghuni" [ref=e47] [cursor=pointer]:
+          - /url: /dashboard/pengelola/penghuni
+          - generic [ref=e48]: Penghuni
+        - link "Tagihan" [ref=e49] [cursor=pointer]:
+          - /url: /dashboard/pengelola/billing
+          - generic [ref=e50]: Tagihan
+        - link "Laporan" [ref=e51] [cursor=pointer]:
+          - /url: /dashboard/pengelola/tickets
+          - generic [ref=e52]: Laporan
+        - link "Pengumuman" [ref=e53] [cursor=pointer]:
+          - /url: /dashboard/pengelola/announcements
+          - generic [ref=e54]: Pengumuman
+        - link "Invite Penghuni Baru" [ref=e55] [cursor=pointer]:
+          - /url: /dashboard/pengelola/invite
+          - generic [ref=e56]: Invite Penghuni Baru
+      - button "Keluar" [ref=e58]:
+        - img [ref=e59]
+        - generic [ref=e61]: Keluar
+    - generic [ref=e62]:
+      - banner [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - textbox "Cari penghuni, kamar..." [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - paragraph [ref=e72]: Admin
+              - paragraph [ref=e73]: admin@kosthub.com
+            - generic [ref=e74]: A
+      - main [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - heading "Dashboard" [level=1] [ref=e78]
+            - paragraph [ref=e79]: Ringkasan status properti Anda
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - paragraph [ref=e83]: Total Penghuni
+              - paragraph [ref=e85]: "3"
+              - paragraph [ref=e86]: dari 30 kamar
+            - generic [ref=e87]:
+              - paragraph [ref=e89]: Menunggak
+              - paragraph [ref=e91]: "0"
+              - paragraph [ref=e92]: belum bayar bulan ini
+            - generic [ref=e93]:
+              - paragraph [ref=e95]: Laporan Aktif
+              - paragraph [ref=e97]: "3"
+              - paragraph [ref=e98]: perlu ditindaklanjuti
+          - generic [ref=e99]:
+            - heading "Status Pembayaran Bulan Ini" [level=2] [ref=e101]
+            - table [ref=e103]:
+              - rowgroup [ref=e104]:
+                - row "Nama Penghuni Nomor Kamar Nominal Status" [ref=e105]:
+                  - columnheader "Nama Penghuni" [ref=e106]
+                  - columnheader "Nomor Kamar" [ref=e107]
+                  - columnheader "Nominal" [ref=e108]
+                  - columnheader "Status" [ref=e109]
+              - rowgroup [ref=e110]:
+                - row "Test Penghuni 12A Rp 750.000 Lunas" [ref=e111]:
+                  - cell "Test Penghuni" [ref=e112]
+                  - cell "12A" [ref=e113]
+                  - cell "Rp 750.000" [ref=e114]
+                  - cell "Lunas" [ref=e115]:
+                    - generic [ref=e116]: Lunas
+  - generic:
+    - img
+  - generic [ref=e25]:
+    - button "Toggle Nuxt DevTools" [ref=e26] [cursor=pointer]:
+      - img [ref=e27]
+    - generic "Page load time" [ref=e30]:
+      - generic [ref=e31]: "479"
+      - generic [ref=e32]: ms
+    - button "Toggle Component Inspector" [ref=e34] [cursor=pointer]:
+      - img [ref=e35]

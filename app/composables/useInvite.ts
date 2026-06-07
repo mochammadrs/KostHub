@@ -8,6 +8,9 @@ export const useInvite = () => {
   type InvitePayload = {
     email: string
     full_name: string
+    phone: string
+    room_number: string
+    move_in_date: string
   }
 
   async function createInvite(payload: InvitePayload) {

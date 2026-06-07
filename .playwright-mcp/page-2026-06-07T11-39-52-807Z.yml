@@ -1,0 +1,24 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "KostHub" [level=1] [ref=e6]
+      - generic [ref=e7]:
+        - generic [ref=e8]: admin@kosthub.com
+        - button "Keluar" [ref=e9]
+  - main [ref=e10]:
+    - generic [ref=e12]:
+      - button "Kembali" [ref=e13]:
+        - img [ref=e14]
+        - generic [ref=e16]: Kembali
+      - generic [ref=e17]:
+        - img [ref=e19]
+        - heading "Masuk Sebagai Pengelola" [level=1] [ref=e21]
+        - paragraph [ref=e22]: Masukkan email dan password Anda
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Email
+          - textbox "email@example.com" [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]: Password
+          - textbox "••••••••" [ref=e29]
+        - button "Masuk" [ref=e30]

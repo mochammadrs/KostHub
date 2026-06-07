@@ -1,0 +1,28 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e36]:
+      - button "Kembali" [ref=e37]:
+        - img [ref=e38]
+        - generic [ref=e40]: Kembali
+      - generic [ref=e41]:
+        - img [ref=e43]
+        - heading "Masuk Sebagai Pengelola" [level=1] [ref=e45]
+        - paragraph [ref=e46]: Masukkan email dan password Anda
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: Email
+          - textbox "email@example.com" [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]: Password
+          - textbox "••••••••" [ref=e53]
+        - button "Masuk" [ref=e54]
+  - generic:
+    - img
+  - generic [ref=e21]:
+    - button "Toggle Nuxt DevTools" [ref=e22] [cursor=pointer]:
+      - img [ref=e23]
+    - generic "Page load time" [ref=e26]:
+      - generic [ref=e27]: "48"
+      - generic [ref=e28]: ms
+    - button "Toggle Component Inspector" [ref=e30] [cursor=pointer]:
+      - img [ref=e31]

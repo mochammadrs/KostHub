@@ -1,0 +1,14 @@
+- main [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "KostHub" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Kelola properti kost dengan mudah
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: "Masuk sebagai:"
+      - generic [ref=e12]:
+        - button "Penghuni" [ref=e13]:
+          - img [ref=e14]
+          - generic [ref=e16]: Penghuni
+        - button "Pengelola" [ref=e17]:
+          - img [ref=e18]
+          - generic [ref=e20]: Pengelola

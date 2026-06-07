@@ -1,0 +1,122 @@
+- generic [ref=e1]:
+  - generic [ref=e39]:
+    - complementary [ref=e40]:
+      - generic [ref=e41]:
+        - heading "KostHub" [level=1] [ref=e42]
+        - paragraph [ref=e43]: Panel Pengelola
+      - navigation [ref=e44]:
+        - link "Dashboard" [ref=e45] [cursor=pointer]:
+          - /url: /dashboard/pengelola
+          - generic [ref=e46]: Dashboard
+        - link "Penghuni" [ref=e47] [cursor=pointer]:
+          - /url: /dashboard/pengelola/penghuni
+          - generic [ref=e48]: Penghuni
+        - link "Tagihan" [ref=e49] [cursor=pointer]:
+          - /url: /dashboard/pengelola/billing
+          - generic [ref=e50]: Tagihan
+        - link "Laporan" [active] [ref=e51] [cursor=pointer]:
+          - /url: /dashboard/pengelola/tickets
+          - generic [ref=e52]: Laporan
+        - link "Pengumuman" [ref=e53] [cursor=pointer]:
+          - /url: /dashboard/pengelola/announcements
+          - generic [ref=e54]: Pengumuman
+        - link "Invite Penghuni Baru" [ref=e55] [cursor=pointer]:
+          - /url: /dashboard/pengelola/invite
+          - generic [ref=e56]: Invite Penghuni Baru
+      - button "Keluar" [ref=e58]:
+        - img [ref=e59]
+        - generic [ref=e61]: Keluar
+    - generic [ref=e62]:
+      - banner [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - textbox "Cari laporan..." [ref=e117]
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - paragraph [ref=e72]: Admin
+              - paragraph [ref=e73]: admin@kosthub.com
+            - generic [ref=e74]: A
+      - main [ref=e75]:
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - heading "Laporan Perbaikan" [level=1] [ref=e120]
+            - paragraph [ref=e121]: Kelola laporan kerusakan dari penghuni
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - paragraph [ref=e125]: Menunggu
+              - paragraph [ref=e127]: "2"
+              - paragraph [ref=e128]: laporan baru
+            - generic [ref=e129]:
+              - paragraph [ref=e131]: Diproses
+              - paragraph [ref=e133]: "0"
+              - paragraph [ref=e134]: sedang ditangani
+            - generic [ref=e135]:
+              - paragraph [ref=e137]: Selesai
+              - paragraph [ref=e139]: "1"
+              - paragraph [ref=e140]: bulan ini
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - img [ref=e143]
+              - textbox "Cari laporan..." [ref=e145]
+            - combobox [ref=e146]:
+              - option "Semua Status" [selected]
+              - option "Menunggu"
+              - option "Diproses"
+              - option "Selesai"
+              - option "Ditolak"
+          - generic [ref=e147]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: L
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - heading "AC" [level=4] [ref=e154]
+                  - generic [ref=e155]: Menunggu
+                - paragraph [ref=e156]: AC kamar 15B tidak dingin, sudah 3 hari tidak berfungsi. Mohon segera diperbaiki.
+                - generic [ref=e157]:
+                  - paragraph [ref=e158]: Penghuni 3•Kamar -•Baru saja
+                  - generic [ref=e159]:
+                    - button "Proses" [ref=e160]
+                    - button "Tolak" [ref=e161]
+            - generic [ref=e164]:
+              - generic [ref=e165]: L
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - heading "Kamar Mandi" [level=4] [ref=e168]
+                  - generic [ref=e169]: Menunggu
+                - paragraph [ref=e170]: atap bocor
+                - link "Lihat Foto" [ref=e172] [cursor=pointer]:
+                  - /url: https://qbimndscxigzwpsevphw.supabase.co/storage/v1/object/public/bills/tickets/1780777452184.png
+                  - img [ref=e173]
+                  - text: Lihat Foto
+                - generic [ref=e175]:
+                  - paragraph [ref=e176]: Test Penghuni•Kamar -•14 jam lalu
+                  - generic [ref=e177]:
+                    - button "Proses" [ref=e178]
+                    - button "Tolak" [ref=e179]
+            - generic [ref=e182]:
+              - generic [ref=e183]: L
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - heading "AC" [level=4] [ref=e186]
+                  - generic [ref=e187]: Ditolak
+                - paragraph [ref=e188]: ac tidak dingin
+                - paragraph [ref=e190]: Test Penghuni•Kamar -•15 jam lalu
+            - generic [ref=e193]:
+              - generic [ref=e194]: AC
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - heading "AC kamar tidak dingin" [level=4] [ref=e197]
+                  - generic [ref=e198]: Selesai
+                - paragraph [ref=e199]: AC tidak mengeluarkan udara dingin
+                - paragraph [ref=e201]: Test Penghuni•Kamar -•17 jam lalu
+  - generic:
+    - img
+  - generic [ref=e25]:
+    - button "Toggle Nuxt DevTools" [ref=e26] [cursor=pointer]:
+      - img [ref=e27]
+    - generic "Page load time" [ref=e30]:
+      - generic [ref=e31]: "160"
+      - generic [ref=e32]: ms
+    - button "Toggle Component Inspector" [ref=e34] [cursor=pointer]:
+      - img [ref=e35]

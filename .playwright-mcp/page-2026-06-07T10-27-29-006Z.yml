@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e81]:
+    - banner [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - button [ref=e85]:
+            - img [ref=e86]
+          - heading "KostHub" [level=1] [ref=e88]
+        - button "PE" [ref=e89]
+    - main [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - paragraph [ref=e93]: Halo,
+          - heading "Penghuni" [level=1] [ref=e94]
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - heading "Laporan Perbaikan" [level=2] [ref=e97]
+            - link "Buat Laporan" [ref=e98] [cursor=pointer]:
+              - /url: /dashboard/penghuni/laporan/buat
+              - img [ref=e99]
+              - text: Buat Laporan
+          - generic [ref=e101]: Belum ada laporan aktif
+  - generic:
+    - img
+  - generic [ref=e31]:
+    - button "Toggle Nuxt DevTools" [ref=e32] [cursor=pointer]:
+      - img [ref=e33]
+    - generic "Page load time" [ref=e36]:
+      - generic [ref=e37]: "457"
+      - generic [ref=e38]: ms
+    - button "Toggle Component Inspector" [ref=e40] [cursor=pointer]:
+      - img [ref=e41]

@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading "KostHub" [level=1] [ref=e6]
+        - generic [ref=e7]:
+          - generic [ref=e8]: penghuni@kosthub.com
+          - button "Keluar" [ref=e9]
+    - main [ref=e10]:
+      - generic [ref=e11]:
+        - navigation [ref=e12]:
+          - link "Dashboard" [ref=e13] [cursor=pointer]:
+            - /url: /dashboard/penghuni
+          - link "Tagihan" [ref=e14] [cursor=pointer]:
+            - /url: /dashboard/penghuni/billing
+          - link "Laporan" [ref=e15] [cursor=pointer]:
+            - /url: /dashboard/penghuni/tickets
+        - heading "Laporan Kerusakan" [level=2] [ref=e17]
+        - button "+ Buat Laporan Baru" [ref=e73]
+        - generic [ref=e20]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - heading "Internet sering putus" [level=4] [ref=e76]
+              - generic [ref=e77]: Menunggu
+            - generic [ref=e78]:
+              - generic [ref=e79]: WiFi
+              - generic [ref=e80]: 5 Juni 2026 pukul 23.13
+            - paragraph [ref=e81]: Koneksi WiFi tidak stabil sejak kemarin sore.
+          - generic [ref=e21]:
+            - generic [ref=e22]:
+              - heading "AC kamar tidak dingin" [level=4] [ref=e23]
+              - generic [ref=e24]: Diproses
+            - generic [ref=e25]:
+              - generic [ref=e26]: AC
+              - generic [ref=e27]: 5 Juni 2026 pukul 21.41
+            - paragraph [ref=e28]: AC sudah 2 hari ini tidak mengeluarkan udara dingin sama sekali. Mohon dicek.
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - heading "Kran kamar mandi bocor" [level=4] [ref=e31]
+              - generic [ref=e32]: Selesai
+            - generic [ref=e33]:
+              - generic [ref=e34]: Air
+              - generic [ref=e35]: 5 Juni 2026 pukul 21.41
+            - paragraph [ref=e36]: Kran air di kamar mandi bocor terus, airnya tidak bisa mati total.
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - heading "Lampu lorong mati" [level=4] [ref=e39]
+              - generic [ref=e40]: Menunggu
+            - generic [ref=e41]:
+              - generic [ref=e42]: Listrik
+              - generic [ref=e43]: 5 Juni 2026 pukul 21.41
+            - paragraph [ref=e44]: Lampu di lorong lantai 2 mati sudah 3 hari.
+  - generic:
+    - img
+  - generic [ref=e45]:
+    - button "Toggle Nuxt DevTools" [ref=e46] [cursor=pointer]:
+      - img [ref=e47]
+    - generic "Page load time" [ref=e50]:
+      - generic [ref=e51]: "1.3"
+      - generic [ref=e52]: s
+    - button "Toggle Component Inspector" [ref=e54] [cursor=pointer]:
+      - img [ref=e55]

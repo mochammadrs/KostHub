@@ -1,0 +1,21 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "KostHub" [level=1] [ref=e6]
+      - generic [ref=e7]:
+        - generic [ref=e8]: penghuni3@kosthub.com
+        - button "Keluar" [ref=e9]
+  - main [ref=e10]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - heading "KostHub" [level=1] [ref=e14]
+        - paragraph [ref=e15]: Kelola properti kost dengan mudah
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: "Masuk sebagai:"
+        - generic [ref=e18]:
+          - button "Penghuni" [ref=e19]:
+            - img [ref=e20]
+            - generic [ref=e22]: Penghuni
+          - button "Pengelola" [ref=e23]:
+            - img [ref=e24]
+            - generic [ref=e26]: Pengelola
